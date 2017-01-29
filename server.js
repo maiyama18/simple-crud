@@ -6,7 +6,7 @@ import Character from './character'
 
 const app = express()
 const port = process.env.PORT || 3001
-const dbUrl = 'mongodb://localhost/crud'
+const dbUrl = 'mongodb://heroku_p2xm8r1k:rsagubqcfsubeqlem26sfidb89@ds135669.mlab.com:35669/heroku_p2xm8r1k'
 
 app.use(express.static(path.join(__dirname, 'client/build')))
 app.use(bodyParser.urlencoded({ extended: true }))
